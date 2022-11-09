@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PH20178_LAB32_1">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giải phương trình bậc 2"
+        android:textSize="30dp"
+        android:textColor="#EA2718"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/ed_soa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Nhập số a"
+        android:textSize="30dp"/>
+    <EditText
+        android:id="@+id/ed_sob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Nhập số b"
+        android:textSize="30dp"/>
+    <EditText
+        android:id="@+id/ed_soc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Nhập số c "
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/btn_giaipt"
+        android:onClick="giaipt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Giải phương trình"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
